@@ -15,48 +15,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="_tmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\aes.c">
+    <ClCompile Include="PatchSolution3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\aes_constant.c">
+    <ClCompile Include="PatchSolution0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\blowfish.c">
+    <ClCompile Include="PatchSolution2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NavicatCrypto\sha1.c">
+    <ClCompile Include="PatchSolution1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="EncryptPublicKey.cpp">
+    <ClCompile Include="CapstoneDisassembler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Solution0.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution1.cpp">
+    <ClCompile Include="ImageInterpreter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NavicatCrypto\aes.h">
+    <ClInclude Include="NavicatCrypto.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\blowfish.h">
+    <ClInclude Include="PatchSolution.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\NavicatCrypto.hpp">
+    <ClInclude Include="Helper.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NavicatCrypto\sha1.h">
+    <ClInclude Include="ImageInterpreter.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="def.hpp">
+    <ClInclude Include="CapstoneDisassembler.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RSACipher.hpp">
+    <ClInclude Include="FileManipulation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionCapstone.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
